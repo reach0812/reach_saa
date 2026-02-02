@@ -5,14 +5,14 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background-color: #E63946, #F1A9A0,#2e0105;
-  background: url("image/fun.gif") center/cover no-repeat;
+  background: url("fun.gif") center/cover no-repeat;
   color: #f3f5f7;
   text-align: center;
   .hero {
   height: 100vh;
   background: 
     linear-gradient(rgba(34, 33, 33, 0.55), rgba(48, 47, 47, 0.55)),
-    url("image/back1.jpg") center / cover no-repeat;
+    url("back1.jpg") center / cover no-repeat;
   position: relative;
   color: white;
   
@@ -182,7 +182,7 @@ html, body {
 .dark {
   /*background: linear-gradient(135deg, #404041, #ff69b4,  #404041);*/
  height: 90vh;
-background: url("image/fun.gif") center/cover no-repeat;
+background: url("fun.gif") center/cover no-repeat;
 }
 
 .gallery {
@@ -413,3 +413,4 @@ background: url("image/fun.gif") center/cover no-repeat;
     opacity: 1;
   }
 }
+
