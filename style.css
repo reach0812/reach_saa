@@ -5,14 +5,17 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background-color: #E63946, #F1A9A0,#2e0105;
-  background: url("fun.gif") center/cover no-repeat;
+  background-image: url("love-bg.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #f3f5f7;
   text-align: center;
   .hero {
   height: 100vh;
   background: 
-    linear-gradient(rgba(34, 33, 33, 0.55), rgba(48, 47, 47, 0.55)),
-    url("back1.jpg") center / cover no-repeat;
+   linear-gradient(rgba(34, 33, 33, 0.55), rgba(48, 47, 47, 0.55)),
+   url("back1.jpg") center / cover no-repeat;
   position: relative;
   color: white;
   
@@ -312,7 +315,7 @@ background: url("fun.gif") center/cover no-repeat;
 /* MEMORIES SECTION BACKGROUND GIF */
 .memories-bg {
   position: relative;
-  background: url("image/memories-bg.gif") center / cover no-repeat;
+  background: url("fun.gif") center / cover no-repeat;
   padding: 80px 20px;
   overflow: hidden;
 }
@@ -336,7 +339,7 @@ background: url("fun.gif") center/cover no-repeat;
 /* reason SECTION BACKGROUND GIF */
 .section{
   position: relative;
-  background: url("image/fun.gif") center / cover no-repeat;
+  background: url("fun.gif") center / cover no-repeat;
   padding: 80px 20px;
   overflow: hidden;
 }
